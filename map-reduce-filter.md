@@ -22,7 +22,9 @@ A simple example:
 
 ### `filter`
 
-`filter` takes each element of an array and either throws it or keeps it according to some condition set by a provided callback. So, `filter` also transforms an array to a new array, but the new array might be shorter than the original array.
+`filter` takes each element of an array and either throws it or keeps it according to some condition set by a provided callback. So, `filter` also transforms an array to a new array,
+where the length of the latter is at most equal to that of the former, and more importantly,
+its elements are just elements in the former (no transformations of the elements).
 
 A simple example:
 
